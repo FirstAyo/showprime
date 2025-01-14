@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show Prime</title>
-    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="/output.css">
 </head>
 
 <body class="bg-white">
@@ -14,23 +14,25 @@
 
         <!-- header section starts here -->
         <header class="py-5 shadow-xl">
-            <div class="w-[95%] mx-auto flex justify-between items-center">
-                <div class="flex-1">
+            <nav class="w-[95%] mx-auto flex justify-between items-center">
+                <div class="w-[20%]">
                     <h1 class="text-[#7919CC] font-bold text-xl">Show<span class="text-black">Prime</span>
                     </h1>
                 </div>
 
-                <div class="flex-1 flex justify-between text-lg">
-                    <a href="#">Features</a>
-                    <a href="#">Community</a>
-                    <a href="#">Contact</a>
+                <div class="flex items-center w-[80%] justify-between">
+                    <div class="flex-1 flex absolute flex-col lg:flex-row lg:justify-between text-lg lg:relative">
+                        <a href="#">Features</a>
+                        <a href="#">Community</a>
+                        <a href="#">Contact</a>
+                    </div>
+    
+                    <div class="flex-1 flex justify-end items-center gap-5 text-lg">
+                        <a href="#" class="text-[#7919CC] font-bold">Log In</a>
+                        <button class="bg-[#7919CC] text-white py-2 px-5 rounded-md">Get Started</button>
+                    </div>
                 </div>
-
-                <div class="flex-1 flex justify-center items-center gap-5 text-lg">
-                    <a href="#">Log In</a>
-                    <button class="bg-[#7919CC] text-white py-2 px-5 rounded-md">Get Started</button>
-                </div>
-            </div>
+            </nav>
         </header>
 
         <!-- hero section starts here -->
