@@ -574,6 +574,10 @@ video {
   top: 5rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -597,6 +601,11 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .flex {
@@ -794,6 +803,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#7919CC\]\/90 {
+  background-color: rgb(121 25 204 / 0.9);
 }
 
 .bg-gradient-to-r {
@@ -1031,6 +1044,11 @@ video {
     top: 0px;
   }
 
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:h-\[700px\] {
     height: 700px;
   }
@@ -1088,6 +1106,11 @@ video {
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
+  }
+
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .lg\:pb-0 {
