@@ -20,22 +20,22 @@
 
           <div class="flex items-center w-[80%] justify-between">
             <div
-              class="flex-1 flex top-20 left-0 w-full bg-[#7919CC]/90 py-5 lg:py-0 text-white lg:top-0 lg:bg-transparent lg:text-[#7919CC] font-semibold absolute flex-col lg:flex-row lg:justify-between text-lg lg:relative"
+              class="flex-1 flex -top-[450px] left-0 w-full bg-[#7919CC]/90 py-5 lg:py-0 text-white lg:top-0 lg:bg-transparent lg:text-[#7919CC] font-semibold absolute flex-col lg:flex-row lg:justify-between text-lg lg:relative " id="nav-links"
             >
               <a href="#" class="py-5 lg:py-0 mx-5 lg:mx-0">Features</a>
               <a href="#" class="py-5 lg:py-0 mx-5 lg:mx-0">Community</a>
               <a href="#" class="py-5 lg:py-0 mx-5 lg:mx-0">Contact</a>
             </div>
 
-            <div class="flex-1 flex justify-end items-center gap-5 text-lg">
-              <a href="#" class="text-[#7919CC] font-bold">Log In</a>
+            <div class="flex-1 flex justify-end items-center gap-2 text-lg">
+              <a href="#" class="text-[#7919CC] font-bold border border-[#7919CC] rounded-md px-5 py-2">Log In</a>
               <button class="bg-[#7919CC] text-white py-2 px-5 rounded-md">
                 Get Started
               </button>
               <img
                 src="./img/menu.png"
                 alt=""
-                class="w-10 h-10 lg:hidden cursor-pointer"
+                class="w-10 h-10 lg:hidden cursor-pointer" id="toggle-menu" onclick="toggleMenu(this)"
               />
               <!-- <ion-icon name="menu-outline" class="lg:hidden text-4xl cursor-pointer" id="toggle-menu" onclick="onToggle(this)"></ion-icon> -->
             </div>
@@ -503,5 +503,7 @@
         </div>
       </footer>
     </section>
+
+    <script src="./script.js"></script>
   </body>
 </html>
